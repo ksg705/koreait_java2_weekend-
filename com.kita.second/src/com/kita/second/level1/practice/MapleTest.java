@@ -5,7 +5,7 @@ public class MapleTest {
 		Adventurer adv1 = new Adventurer();
 		Adventurer adv2 = new Adventurer();
 		adv1.attack();
-		adv1.jump();
+		adv2.jump();
 		
 	}
 	

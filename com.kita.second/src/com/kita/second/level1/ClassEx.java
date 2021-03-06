@@ -1,6 +1,6 @@
 package com.koreait.first;
 
-public class ClassEx {
+public class ClassEx extends Object{
 	// 필드 // 상태
 	int field1;
 	String field2;
@@ -8,7 +8,7 @@ public class ClassEx {
 	
 	// 생성자 // 필드 초기화 
 	public ClassEx() {
-		
+//		super();
 	}
 	
 	public ClassEx(int field1) {
