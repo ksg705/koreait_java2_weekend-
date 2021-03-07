@@ -18,7 +18,9 @@ public class Adventurer {
 	
 	}
 	
-	public Adventurer(int strength, int dex)
+	public Adventurer(int strength, int dex) {
+		
+	}
 	
 	
 	// 메소드
