@@ -1,6 +1,6 @@
 package com.kita.second.level2;
 
-public class Animal {
+public abstract class Animal {
 	String name;
 	int age;
 	private String type;

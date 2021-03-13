@@ -1,7 +1,7 @@
-package com.koreait.first;
+package com.koreait.first.level1;
 
 public class ClassEx extends Object{
-	// 필드 // 상태
+	// 필드 // 속성,상태
 	int field1;
 	String field2;
 	int[] field3;

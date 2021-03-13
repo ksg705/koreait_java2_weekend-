@@ -2,14 +2,18 @@ package com.kita.second.level2;
 
 public class NetflixTest {
 	public static void main(String[] args) {
-		Game game = new Game("스타듀벨리");
-		game = new Game("");
-		game = new Game("");
+		ProGamer hong = new ProGamer();
+		Game gm = new Game();
+		BattleGround bg = new BattleGround();
+		Overwatch ow = new Overwatch();
 		
+		hong.work(gm);
+		hong.work(bg);
+		hong.work(ow);
 		
-		Netflix nf = new Drama("펜트하우스");
-		nf = new Movie("승리호");
-//		nf = new Comedy("아는형님");
+//		Viewer rv = new Viewer();
+//		rv.chooseNew();
+		// maxChapter는 최대편수
 		
 		
 		
